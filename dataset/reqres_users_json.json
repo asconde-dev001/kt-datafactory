@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@concat('reqres_users', utcnow())",
+					"value": "@concat('reqres_users_', formatDateTime(utcnow(), 'yyyyMMddHHmmss'))",
 					"type": "Expression"
 				},
 				"folderPath": "raw",
