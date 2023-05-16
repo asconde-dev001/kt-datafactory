@@ -1,5 +1,5 @@
 {
-	"name": "ReqResUsersApiDataset",
+	"name": "reqres_users_api",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Reqres API Users Linked Service",
