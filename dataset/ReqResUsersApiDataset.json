@@ -1,0 +1,12 @@
+{
+	"name": "ReqResUsersApiDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Reqres API Users Linked Service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
