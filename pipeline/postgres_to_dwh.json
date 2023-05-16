@@ -16,21 +16,13 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "JsonSource",
-						"storeSettings": {
-							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
-							"enablePartitionDiscovery": false
-						},
-						"formatSettings": {
-							"type": "JsonReadSettings"
-						}
+						"type": "PostgreSqlSource"
 					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
-						"referenceName": "reqres_users_json",
+						"referenceName": "pgsql_src_table",
 						"type": "DatasetReference"
 					}
 				]
