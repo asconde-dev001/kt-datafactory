@@ -1,0 +1,12 @@
+{
+	"name": "mysql_dwh_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySQL DWH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": []
+	}
+}
