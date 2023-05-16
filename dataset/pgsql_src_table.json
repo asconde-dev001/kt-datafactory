@@ -1,0 +1,12 @@
+{
+	"name": "pgsql_src_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Postgres Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "PostgreSqlTable",
+		"schema": []
+	}
+}
